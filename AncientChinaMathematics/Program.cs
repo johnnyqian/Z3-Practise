@@ -30,8 +30,8 @@ namespace AncientChinaMathematics
 
             Solver solver = ctx.MkSolver();
 
-            var exp1 = ctx.MkEq(ctx.MkAdd(chicken, rabbit), ctx.MkInt(35));
-            var exp2 = ctx.MkEq(ctx.MkAdd(chicken * 2, rabbit * 4), ctx.MkInt(94));
+            var exp1 = ctx.MkEq(chicken + rabbit, ctx.MkInt(35));
+            var exp2 = ctx.MkEq(chicken * 2 + rabbit * 4, ctx.MkInt(94));
 
             solver.Add(exp1, exp2);
 
@@ -51,9 +51,9 @@ namespace AncientChinaMathematics
 
             Solver solver = ctx.MkSolver();
 
-            var exp1 = ctx.MkEq(ctx.MkAdd(rooster, hen, chick), ctx.MkInt(100));
-            // var exp2 = ctx.MkEq(ctx.MkAdd(rooster * 5, hen * 3, chick / 3), ctx.MkInt(100));
-            var exp2 = ctx.MkEq(ctx.MkAdd(rooster * 15, hen * 9, chick), ctx.MkInt(300));
+            var exp1 = ctx.MkEq(rooster + hen + chick, ctx.MkInt(100));
+            // var exp2 = ctx.MkEq(rooster * 5 + hen * 3 + chick / 3, ctx.MkInt(100));
+            var exp2 = ctx.MkEq(rooster * 15 + hen * 9 + chick, ctx.MkInt(300));
 
             solver.Add(exp1, exp2, rooster > 0, hen > 0, chick > 0);
 
