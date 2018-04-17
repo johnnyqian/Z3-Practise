@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z3Basic", "Z3Basic\Z3Basic.csproj", "{E580D221-F969-4921-98BC-94222E519D4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AncientChinaMathematics", "AncientChinaMathematics\AncientChinaMathematics.csproj", "{31947048-7575-4A36-AE4C-530031FFD6D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{E580D221-F969-4921-98BC-94222E519D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E580D221-F969-4921-98BC-94222E519D4F}.Release|x64.ActiveCfg = Release|x64
 		{E580D221-F969-4921-98BC-94222E519D4F}.Release|x64.Build.0 = Release|x64
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Debug|x64.ActiveCfg = Debug|x64
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Debug|x64.Build.0 = Debug|x64
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{31947048-7575-4A36-AE4C-530031FFD6D9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
