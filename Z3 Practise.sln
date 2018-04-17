@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z3Basic", "Z3Basic\Z3Basic.csproj", "{E580D221-F969-4921-98BC-94222E519D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E580D221-F969-4921-98BC-94222E519D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E580D221-F969-4921-98BC-94222E519D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E580D221-F969-4921-98BC-94222E519D4F}.Debug|x64.ActiveCfg = Debug|x64
+		{E580D221-F969-4921-98BC-94222E519D4F}.Debug|x64.Build.0 = Debug|x64
+		{E580D221-F969-4921-98BC-94222E519D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E580D221-F969-4921-98BC-94222E519D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E580D221-F969-4921-98BC-94222E519D4F}.Release|x64.ActiveCfg = Release|x64
+		{E580D221-F969-4921-98BC-94222E519D4F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2087E04E-9AC8-4A9E-8C88-5AABB6449F35}
+	EndGlobalSection
+EndGlobal
